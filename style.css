@@ -18,21 +18,45 @@ img{
     color:whitesmoke;
     position:absolute;
     text-align: center;
-    top: 210px;
+    top: 255px;
     width: 100%;
     font-size: 4rem
 }
 
 .two-column{
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 3fr 4fr;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: whitesmoke
+}
+
+.info{
+    font-size: 1.25em;
+    top: 120px;
+    margin-right: 30px
+}
+
+.three-column{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 50px;
     width: 80%;
     margin: auto;
     margin-top: 40px
 }
 
-.info{
-    font-size: 1.25em;
-    
+.card{
+    background-color: rgb(0, 0, 140);
+}
+
+.card-text{
+    text-align: center;
+    color:white
+}
+
+h1{
+    margin-top: 15px;
 }
